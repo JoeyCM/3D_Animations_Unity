@@ -29,7 +29,7 @@ public class Behavior : MonoBehaviour
         }
 
         // Toggle activation of jumping animation when the "J" key is pressed
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             ToggleParameter("isJumping");
             TurnOffOtherParameters("isJumping");
